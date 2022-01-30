@@ -1,0 +1,123 @@
+h1 {
+    color : red;
+    margin-left: 30px;
+}
+
+
+.header * {
+    border: solid;
+}
+
+.header {
+    background-color: aqua;
+
+    display: flex;
+    justify-content: space-between;   
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.footer{
+    display:flex;
+    justify-content:flex-end;
+}
+
+h2,p{
+    text-align:center ;
+}
+
+body {
+background-color: #808080;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+.menu {
+     margin-right:30px;
+}
+
+.menu a{
+    margin-left:20px;  
+} 
+
+.item{
+    position:relative;
+
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+ 
+.item:hover p{
+    opacity:1
+}
+ 
+.item:hover img{
+    opacity:0.3
+}
+
+
+
+
+
+
+
+
+/* 
+universal
+rgb 
+red green blue
+
+hexadecimal num
+
+red 0-255
+
+
+color: blue 
+
+use hexadec
+
+black
+=
+#000000 */
+
+/* white
+=
+#ffffff */
+
+/* black - 0
+white - 255
+gray - 128
+gray - 255/2 = 127.5 = 128
+
+
+255/16
+Q - 15 - F
+R - 15 - F
+
+128/16
+    8
+16) 128
+    128
+    0
+
+    hex
+128 - 80 */
+/* 128,128,128
+
+#808080 */
